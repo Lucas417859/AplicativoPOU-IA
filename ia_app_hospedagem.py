@@ -16,7 +16,7 @@ from groq import Groq
 
 # ========= CONFIGURAÇÕES INICIAIS E TEMA ==========
 st.set_page_config(
-    page_title="POU Platinum - Almoxarifado Inteligente", 
+    page_title="Apicativo POU- Soluções Tecnológicas para Almoxarifados.", 
     layout="wide",
     initial_sidebar_state="expanded"
 )
@@ -838,4 +838,5 @@ elif menu == "5️⃣ Chat IA":
         # Botão para limpar o histórico
         if st.button("🧹 Limpar Conversa", use_container_width=True):
             st.session_state.messages = []
+
             st.rerun()
